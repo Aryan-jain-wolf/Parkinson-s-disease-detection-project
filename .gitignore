@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+
+# Generated research data and artifacts
+data/parkinsons.data
+results/*
+!results/.gitkeep
+models/*.joblib
+models/*.pkl
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
